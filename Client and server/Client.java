@@ -28,8 +28,8 @@ public class Client {
              System.out.println("");
  
              
-                boolean wantsToExit = message.equalsIgnoreCase("Ma Salama");
-                boolean correctExitReply = response.equals("ما سلامة");
+                boolean wantsToExit = message.equalsIgnoreCase("goodbye");
+                boolean correctExitReply = response.equals("goodbye");
 
              if (wantsToExit && correctExitReply) {
                  break;
